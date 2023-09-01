@@ -1,0 +1,41 @@
+nav {
+    width: 100vw;
+    height: 5.65rem;
+    display: grid;
+    place-items: center;
+    /* background-color:#00FA9A; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+}
+
+
+.navbar__container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image__logo {
+    display: flex;
+}
+
+.nav__menu{
+    display: flex;
+     gap: 3.5rem;
+}
+
+.image__logo img {
+    width: 2rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.nav__logo{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
