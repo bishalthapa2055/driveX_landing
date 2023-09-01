@@ -15,7 +15,7 @@
     --dark-brightness:44%;
     --light-lightness:94%;
     --white-lightness:100%;
-    --primary-color : rgba(1, 178, 154, 1)
+    --primary-color : rgba(0, 193, 166, 1);
 
 
     --color-white:hsl(0,5%,var(--white-lightness));
@@ -31,7 +31,7 @@
     /* general container variables  */
 
     --container-width-Lg : 80%;
-    --container-width-md : 90%;
+    --container-width-medium : 90%;
     --container-width-large: 90%;
 
     /* border radius varibale 0000 */
@@ -51,7 +51,7 @@
 
 
 a{
-    color: var(--color-white);
+    color: var(--color-black);
     /* color:#728FCE; */
     transition: var(--transition);
 }
@@ -77,6 +77,10 @@ img{
     display: block;
     width: 100%;
     object-fit: cover;
+}
+.drive__logo{
+    display: flex;
+    align-items: center;
 }
 
 
@@ -110,4 +114,35 @@ h5{
 
 h6{
     font-size: 0.8rem;
+}
+
+@media screen and (max-width : 1024px) {
+    body{
+        font-size: 1rem;
+    }
+    .container{
+        width: var(--container-width-medium);
+    }
+    h1{
+        font-size: 2.1875rem;
+    }
+    h4{
+        font-size: 1rem;
+    }
+    
+    
+}
+
+
+@media screen and (max-width : 600px) {
+    body{
+        font-size: 2.4rem;
+    }
+
+    h1{
+        font-size: 2.1875rem;
+    }
+    .drive__logo{
+        display: none;
+    }
 }

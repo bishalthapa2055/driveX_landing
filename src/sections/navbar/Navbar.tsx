@@ -1,5 +1,6 @@
 import "./Navbar.css"
 import { data } from "./data"
+import MenuIcon from '@mui/icons-material/Menu';
 const Navbar = () => {
     return (
         <>
@@ -8,9 +9,9 @@ const Navbar = () => {
                     <div className="image__logo">
 
                         <a href='#' className='nav__logo'>
-                            <img src='./nav__logo.png' alt='logo' />
+                            <img src='./logo.png' alt='logo' />
                         </a>
-                        <h2>Drive X</h2>
+                        <h3 className="drive__logo">Drive X</h3>
                     </div>
 
                     <ul className="nav__menu">
@@ -30,6 +31,10 @@ const Navbar = () => {
                             })
                         }
                     </ul>
+
+                    <button id="theme__icon">
+                        <MenuIcon />
+                    </button>
 
                 </div>
             </nav>
