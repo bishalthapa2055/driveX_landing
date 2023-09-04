@@ -9,7 +9,8 @@
 
 .card.box__card{
     text-align: center;
-    background-color: #b8f9ee;
+    /* background-color: #b8f9ee; */
+    background-color: #F1F7F6;
     border-radius: 20px;
     
 }

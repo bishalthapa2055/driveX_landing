@@ -1,3 +1,4 @@
+import Awsome from "./sections/awsome/Awsome"
 import Header from "./sections/header/Header"
 import Navbar from "./sections/navbar/Navbar"
 import Box from "./sections/why-box/Box"
@@ -12,6 +13,7 @@ function App() {
         <Header />
         <Why />
         <Box />
+        <Awsome />
     </>
   )
 }

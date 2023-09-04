@@ -8,20 +8,9 @@
 
 .card:hover{
     background: transparent;
-    border-color: var(--color-white);
+    border-color: var(--color-light);
     transform: translateY(-0.5rem);
 }
-
-/* .card.light{
-    background: var(--color-light);
-}
-
-.card.card.light:hover{
-    background: transparent;
-    border-color: var(--color-light);
-} */
-
-
 
 
 @media screen and (max-width:600px) {

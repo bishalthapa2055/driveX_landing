@@ -1,0 +1,127 @@
+.awsome__container{
+    margin-top: 9rem;
+    background-color: #F1F7F6;
+}
+
+.awsome__container__title{
+    padding-top: 10px;
+}
+.awsome__title__container{
+    margin-top: 50px;
+    text-align:center ;
+}
+.awsome__title__container h2{
+    color: #11181F;
+    text-align: center;
+    font-family: 'Rubik';
+    font-size: 35px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 60px;
+}
+
+
+.awsome__container__paragraph{
+    padding: 5px  343px;
+    text-align: center;
+}
+
+.awsome__container__paragraph h5{
+    color: #11181F;
+    text-align: center;
+    font-family: "Rubik";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 34px;
+}
+.awsome__container__blocks{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.awsome__container__left{
+    /* background-color: rgb(199, 193, 193); */
+    margin-left: -50px;
+    margin-top: -30px;
+}
+
+.awsome__container__right{
+    margin-top: 50px;
+}
+
+.awsome__container__right__title span{
+    color: var(--primary-color)
+}
+
+.awsome__container__right__title h2{
+    color: #11181F;
+    font-family: "Rubik";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 50px;
+    padding-right: 200px;
+}
+
+.awsome__container__right__title h4{
+    color: #646464;
+    font-family: "Rubik";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 34px;
+    padding-top: 10px;
+    padding-right:50px;
+}
+
+.awsome__container__list{
+    margin-top: 1.5rem;
+    padding-right: 50px;
+}
+
+.awsome__container__mobile{
+    display:  flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+.awsome__container__mobile__text h4{
+    color: #646464;
+    font-family: "Rubik";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 34px;
+}
+
+.awsome__container__lock{
+    margin-top: 1rem;
+}
+.awsome__container__lock{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.awsome__container__lock__text h4{
+    color: #646464;
+    font-family: "Rubik";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 34px;
+}
+
+.awsome__container__button{
+    margin-top: 1.5rem;
+}
+
+.awsome__container__button button{
+background-color: var(--primary-color);
+width: 223px;
+height: 64px;
+}
+
+.awsome__container__button button:hover{
+    background-color: var(--primary-color);
+    }
+
