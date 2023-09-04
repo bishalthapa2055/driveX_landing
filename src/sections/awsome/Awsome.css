@@ -85,6 +85,9 @@
     gap: 0.5rem;
     align-items: center;
 }
+.awsome__container__mobile__icon{
+    display: flex;
+}
 .awsome__container__mobile__text h4{
     color: #646464;
     font-family: "Rubik";
@@ -100,6 +103,7 @@
 .awsome__container__lock{
     display: flex;
     gap: 0.5rem;
+    align-items: center;
 }
 
 .awsome__container__lock__text h4{
