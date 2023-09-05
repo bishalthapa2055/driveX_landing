@@ -1,4 +1,5 @@
 import Awsome from "./sections/awsome/Awsome"
+import Contact from "./sections/contact/Contact"
 import Faq from "./sections/faq/Faq"
 import Header from "./sections/header/Header"
 import Navbar from "./sections/navbar/Navbar"
@@ -16,6 +17,7 @@ function App() {
         <Box />
         <Awsome />
         <Faq />
+        <Contact />
     </>
   )
 }
