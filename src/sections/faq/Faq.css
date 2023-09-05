@@ -1,0 +1,164 @@
+
+.faq__container{
+    margin-top: 7.31rem;
+}
+
+.faq__container__header{
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+.faq__container__header h2{
+    color: #11181F;
+    font-family: "Rubik";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 60px;
+}
+.faq__container__header img{
+    width: 18px;
+    height: 18px;
+}
+
+.faq__container__answer{
+    text-align: center;
+    margin-top: 5px;
+}
+.faq__container__answer Typography{
+    color: #11181F;
+    text-align: center;
+    font-family: "Rubik";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 34px;
+}
+
+
+.faq__container__wrapper{
+    margin-top: 4.3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem 5rem;
+    align-items: flex-start;
+}
+.faq h4{
+    color: #11181F;
+    text-align: left;
+    font-family: "Rubik";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 34px;
+}
+
+.faq{
+    background: #F1F7F6;
+    padding: 2rem;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+.faq p{
+    text-align: left;
+    color: #11181F;
+    text-align: start;
+    font-family: "Rubik";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px;
+}
+
+.faq div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq__icon {
+    background: transparent;
+    color: var(--primary-color);
+    font-size: 1.5rem;
+}
+
+.faq__icon:hover{
+    cursor: pointer;
+}
+
+article p{
+    margin-top: 0.8rem;
+    justify-content: start;
+}
+
+#faqs .detailss {
+    /* Your styles here */
+    margin-top: 1rem;
+  }
+
+
+@media screen and (max-width :1024px) {
+.faq__container__wrapper{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+    
+}
+
+@media screen and (max-width : 600px) {
+    #faqs .detailss {
+       margin-inline: auto;
+       padding: 0px ;
+       
+    }
+    .faq__container{
+        margin-top: 5rem;
+    }
+
+    .faq__container__header h2{
+        color: #11181F;
+    text-align: center;
+    font-family: "Rubik";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    }
+
+    .faq__container__header{
+        display: flex;
+        gap: 0.9rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .faq__container__header img{
+        width: 12px;
+        height: 12px;
+    }
+    .faq__container__answer{
+        margin-top: 10px;
+    }
+    .faq__container__wrapper{
+        margin-top: 2.8rem;
+    }
+    .faq h4{
+        color: #11181F;
+    font-family: "Rubik";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 34px;
+    }
+
+    .faq p{
+        text-align: left;
+        color: #11181F;
+        text-align: center;
+        font-family: "Rubik";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 34px;
+    }
+}

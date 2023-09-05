@@ -195,10 +195,18 @@ height: 64px;
         margin-top: 1.5rem;
         padding-right: 30px;
     }
+     .awsome__container{
+        margin-top: 9rem;
+        padding-bottom: 39px;
+    }
 }
 
 
 @media screen and (max-width : 600px) {
+    .awsome__container{
+        margin-top: 9rem;
+        padding-bottom: 39px;
+    }
     .awsome__container__title{
         margin-top: 40px;
     }
