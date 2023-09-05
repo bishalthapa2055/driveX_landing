@@ -1,7 +1,12 @@
+.awsome__container__section{
+    background-color: #F1F7F6;
+}
+
 .awsome__container{
     margin-top: 9rem;
     background-color: #F1F7F6;
 }
+
 
 .awsome__container__title{
     padding-top: 10px;
@@ -83,10 +88,18 @@
 .awsome__container__mobile{
     display:  flex;
     gap: 0.5rem;
-    align-items: center;
 }
 .awsome__container__mobile__icon{
     display: flex;
+    margin-top: 0.5rem;
+    
+}
+.awsome__container__mobile__text{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: -1px;
 }
 .awsome__container__mobile__text h4{
     color: #646464;
@@ -103,7 +116,10 @@
 .awsome__container__lock{
     display: flex;
     gap: 0.5rem;
-    align-items: center;
+    align-items: start;
+}
+.awsome__container__lock__icon{
+    margin-top: 0.5rem;
 }
 
 .awsome__container__lock__text h4{
@@ -128,4 +144,175 @@ height: 64px;
 .awsome__container__button button:hover{
     background-color: var(--primary-color);
     }
+.awsome__container__right__title h2 br {
+        display: none; /* Hide the line break on larger screens */
+    }
 
+@media screen and (max-width : 1024px) {
+    .awsome__container__paragraph{
+        padding: 5px  100px;
+        text-align: center;
+    }
+
+    .awsome__container__blocks{
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+
+    .awsome__container__blocks{
+        margin: 0;
+        padding: 0;
+    }
+    .awsome__container__left{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        margin-inline: auto;
+    }
+    
+    .awsome__container__left img{
+        max-width: 100%; 
+        height: auto;
+        display: block; /* Remove any residual spacing */
+         margin: 0 auto; 
+         width: 40rem;
+    }
+    .awsome__container__right__title h2 br {
+        display: none; /* Hide the line break on larger screens */
+    }
+
+    .awsome__container__right{
+        padding: 0;
+        margin: 0;
+    }
+    .awsome__container__right__title h4{
+        padding-right:30px;
+    }
+
+    .awsome__container__list{
+        margin-top: 1.5rem;
+        padding-right: 30px;
+    }
+}
+
+
+@media screen and (max-width : 600px) {
+    .awsome__container__title{
+        margin-top: 40px;
+    }
+    .awsome__title__container{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .awsome__title__container h2{
+    color: #11181F;
+    text-align: center;
+    font-family: "Rubik";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 40px;
+    }
+    .awsome__container__paragraph{
+        padding-left: 0.5rem;
+        padding-right: 0.5rem; 
+        margin-top: 10px;
+    }
+    .awsome__container__paragraph h5{
+        color: #11181F;
+        text-align: center;
+        font-family: "Rubik";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 25.6px;
+    }
+    .awsome__container__left{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        margin-inline: auto;
+    }
+    
+    .awsome__container__left img{
+        max-width: 100%; 
+        height: auto;
+        display: block; /* Remove any residual spacing */
+         margin: 0 auto; 
+         /* object-fit: cover; */
+         /* height: 30rem; */
+    }
+    .awsome__container__right__title h2{
+        padding: 0;
+        margin: 0;
+        padding-right: 0px;
+    }
+    .awsome__container__right__title span{
+        color: var(--primary-color);
+        margin: 0;
+        padding: 0;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: bold;
+    line-height: 35.2px;
+    }
+    .awsome__container__right__title h2{
+        color: #11181F;
+        font-family: "Rubik";
+        font-size: 22px;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 35.2px;
+    }
+    .awsome__container__right__title h2 br {
+        display: block; /* Show the line break on smaller screens */
+    }
+
+    .awsome__container__right__title h4{
+        color: #646464;
+        font-family: "Rubik";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 25.6px; 
+        padding-top: 10px;
+        padding-right:20px;
+    }
+    .awsome__container__list{
+        margin: 0;
+        padding: 0;
+        margin-top: 30px;
+    }
+    .awsome__container__mobile__text h4{
+         color: #646464;
+        font-family: "Rubik";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 25.6px; 
+    }
+    .awsome__container__lock{
+        margin-top: 20px;
+    }
+    .awsome__container__lock__text h4{
+    color: #646464;
+    font-family: "Rubik";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 25.6px; 
+    }
+    .awsome__container__button{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        padding-top: 2.8rem;
+    }
+    .awsome__container__button Button{
+        width: 100%;
+    }
+}
