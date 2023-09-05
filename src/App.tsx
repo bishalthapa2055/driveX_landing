@@ -1,6 +1,7 @@
 import Awsome from "./sections/awsome/Awsome"
 import Contact from "./sections/contact/Contact"
 import Faq from "./sections/faq/Faq"
+import Footer from "./sections/footer/Footer"
 import Header from "./sections/header/Header"
 import Navbar from "./sections/navbar/Navbar"
 import Box from "./sections/why-box/Box"
@@ -18,6 +19,7 @@ function App() {
         <Awsome />
         <Faq />
         <Contact />
+        <Footer />
     </>
   )
 }

@@ -1,0 +1,96 @@
+footer{
+    background-color: #1C2833;
+}
+
+.footer__container{
+    color: white;
+}
+
+.footer__container__details{
+    padding-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer__container__details article h4{
+font-family: "Rubik";
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 34px;
+padding-bottom: 15px;
+
+}
+
+.footer__container__details article h5{
+    color: rgba(241, 247, 246, 0.80);
+padding-bottom: 13px;
+font-family: Rubik;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 34px;
+}
+
+.footer__container__end__details{
+    padding-top: 3.6rem;
+    padding-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 8px;
+
+}
+.footer__container__logo{
+    display: flex;
+    gap: 12.28px;
+    /* justify-content: end; */
+    align-items: center;
+   
+}
+.footer__container__logo img{
+    width: 32px;
+    height: 42px;
+}
+.footer__container__logo h2{
+font-family: "Aquire";
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.footer__container__copyright h6{
+    color: rgba(241, 247, 246, 0.80);
+font-family: "Rubik";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 34px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .footer__container__details{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: start;
+        /* align-items: flex-end; */
+        gap: 5rem;
+    }
+}
+
+
+@media screen and (max-width : 600px) {
+    .footer__container__end__details{
+        position: relative;
+        margin: 0;
+        padding: 0; 
+        background-color: aqua;
+        align-items: flex-start;
+        display: flex; /* Set the display property to flex */
+        flex-direction: column; /* Ensure a column layout */
+        
+    }
+    
+}
