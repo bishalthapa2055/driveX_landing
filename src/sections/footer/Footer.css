@@ -82,15 +82,30 @@ line-height: 34px;
 
 
 @media screen and (max-width : 600px) {
+    
+    .footer__container__details h5{
+        color: #FFF;
+        font-family: "Rubik";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 34px;
+    }
+    .footer__container__copyright{
+        color: rgba(241, 247, 246, 0.80);
+        font-family: "Rubik";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 34px;
+    }
+    
     .footer__container__end__details{
         position: relative;
         margin: 0;
         padding: 0; 
-        background-color: aqua;
         align-items: flex-start;
-        display: flex; /* Set the display property to flex */
-        flex-direction: column; /* Ensure a column layout */
-        
+        display: flex; 
+        flex-direction: column; 
     }
-    
 }

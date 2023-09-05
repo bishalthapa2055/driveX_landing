@@ -1,5 +1,4 @@
 import "./Footer.css"
-
 const Footer = () => {
     return (
         <>
@@ -8,7 +7,7 @@ const Footer = () => {
                     <div className="footer__container__details">
 
                         <article>
-                            <h4>Learners</h4>
+                            <h4>Learners </h4>
                             <a href="/">
 
                                 <h5>
