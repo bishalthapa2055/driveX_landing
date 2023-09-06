@@ -1,0 +1,183 @@
+/* .main--header{ */
+    /* background-color: var(--primary-color); */
+    /* background-color: aqua; */
+    /* height: calc(100vh - 5.65rem); */
+    /* width: 100vw; */
+ /* } */
+    /* .main--header--image--container {
+    position: absolute;
+        color: red;
+        object-fit: cover;
+    } */
+
+
+
+.main--header {
+        position: relative;
+        background-color: var(--primary-color);
+        height: calc(100vh - 5.65rem);
+        width: 100vw;
+        overflow: hidden; 
+        display: flex; /* Use Flexbox */
+        justify-content: space-between;
+}
+      
+.main--header--image--container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1  ; /* To make the image appear behind other content */
+}
+.small--image{
+    display: none;
+}
+      
+.container {
+        position: relative;
+        z-index: 1;
+      
+}
+      
+.main--header-container {
+        position: absolute;
+        height: 100%;
+        gap: 10rem;
+        z-index: 1;
+        
+        
+}
+      
+
+.main--header--left , 
+.main--header--right {
+    /* flex:1 */
+}
+
+.main--header--container--style{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main--header--left{
+    margin-top: 190px;
+   
+}
+.main--header--left h1{
+    color: #FFF;
+font-family: 'Rubik';
+font-weight: 500;
+line-height: 60px;
+font-weight: 600;
+}
+
+.main--header--left h1 span{
+    color: black;
+    line-height: 60px;
+}
+
+
+.main--header--left h4{
+    margin-top: 1.25rem;
+    color: rgba(255, 255, 255, 0.97);
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    /* padding-right: 750px; */
+}
+
+
+.image--container {
+    margin-top: 51px;
+    display: flex;
+    gap: 1.375rem;
+    align-items: center;
+    
+}
+.image--container a{
+    width: 175px;
+    height: 53px;
+}
+
+.main--header--right{
+    padding: 0;
+    margin: 0;
+    margin-top: -95px;
+}
+
+.main--header--image img{
+    margin-right: 600px;
+    height: 890px;
+}
+
+
+@media screen and (max-width : 1024px) {
+    .main--header {
+            position: relative;
+            background-color: var(--primary-color);
+            height: 100%;
+            width: 100vw;
+            /* overflow: hidden;  */
+            display: flex; 
+            justify-content: space-between;
+         }
+    .main--header--image--container {
+        position: absolute;
+        top: 10rem;
+        /* left: 0; */
+        width: 100%;
+        height: 100%;
+        margin-bottom: 100px;
+        /* display: none; */
+        z-index: 1  ; /* To make the image appear behind other content */
+    }
+
+    .large--image {
+        display: block;
+
+    }
+    /* .small--image {
+        display: block;
+    } */
+  
+    .container {
+        position: relative;
+        z-index: 1;
+    
+    }
+  
+    .main--header-container {
+        position: absolute;
+        height: 100%;
+        gap: 10rem;
+        z-index: 1;
+        
+        
+    }
+ .main--header--container--style{
+    display: flex;
+    flex-direction: column;
+    } 
+    .main--header--left{
+        margin:0;
+        padding: 0;
+        margin-top: 50px;
+    }
+
+    .main--header--right{
+        padding: 0;
+        margin: 0;
+        margin-top: -95px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .main--header--image img{
+        margin-right: 600px;
+        height: 890px;
+        
+    }
+}

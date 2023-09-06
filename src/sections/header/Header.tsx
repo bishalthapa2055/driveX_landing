@@ -37,7 +37,7 @@ const Header = () => {
                     <div className="main__header__right">
                         {/* <div className="main__header__curve"> */}
                         <div className="main__header__image">
-                            <img src="https://images.unsplash.com/photo-1512850183-6d7990f42385?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80" alt="header-image" />
+                            <img src="./header__image.png" alt="header-image"  />
                             {/* </div> */}
                         </div>
                     </div>
